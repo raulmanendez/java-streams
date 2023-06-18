@@ -1,5 +1,6 @@
 package preparation.streams;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
@@ -11,7 +12,7 @@ import java.util.stream.Stream;
 public class DuplicateInArray {
 
 	private static List<Integer> getList() {
-		return List.of(1,4,5,2,3,7,8,1,4);
+		return Arrays.asList(1,4,5,2,3,7,8,1,4);
 	}
 	
 	private static Stream<Integer> getStream() {

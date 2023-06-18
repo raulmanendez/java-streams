@@ -11,7 +11,7 @@ public class ListToMapCount {
 		
 		List<String> list=Arrays.asList("java","python","cpp","c","java");
 		
-		//System.out.println(list.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting())));
+		System.out.println(list.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting())));
 		
 	}
 }

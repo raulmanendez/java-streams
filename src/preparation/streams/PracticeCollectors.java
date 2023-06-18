@@ -26,7 +26,7 @@ public class PracticeCollectors {
 		System.out.println(l);
 		// output: [1,4,9,16,25,36,36]
 		
-		l = integers.stream().map(x -> x * x).collect(Collectors.toUnmodifiableList());
+		//l = integers.stream().map(x -> x * x).collect(Collectors.toUnmodifiableList());
 		try {
 			l.add(8);
 		} catch (Exception e) {
@@ -37,7 +37,7 @@ public class PracticeCollectors {
 		System.out.println(set);
 		// output: [1,4,9,16,25,36]
 
-		set = integers.stream().map(x -> x * x).collect(Collectors.toUnmodifiableSet());
+		//set = integers.stream().map(x -> x * x).collect(Collectors.toUnmodifiableList());
 		try {
 			set.add(8);
 		} catch (Exception e) {
